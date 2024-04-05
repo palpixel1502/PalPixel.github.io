@@ -62,18 +62,7 @@
             background-color: #B91F4B;
         }
     </style>
-    <script>
-        jQuery(document).ready(function ($) {
-    $(".counterup").each(function () {
-        $(this).mouseenter(function () {
-            $(this).counterUp({
-                delay: 10, // the delay time in ms
-                time: 1500, // the speed time in ms
-            });
-        });
-    });
-});
-    </script>
+
 </head>
 
 <body>
@@ -95,7 +84,7 @@
         <!-- cursor end -->
 
         <!-- preloader -->
-        <!-- <div class="mil-preloader">
+        <div class="mil-preloader">
             <div class="mil-preloader-animation">
                 <div class="mil-pos-abs mil-animation-1">
                     <p class="mil-h3 mil-muted mil-thin">Every</p>
@@ -109,7 +98,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- preloader end -->
 
         <!-- scrollbar progress -->
@@ -499,7 +488,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-6 counter-container">
+                            <div class="col-lg-6">
 
                                 <div class="mil-team-list">
                                     <div class="mil-lines-place"></div>
@@ -508,21 +497,17 @@
                                         <div class="col-sm-6">
 
                                             <div class="card1 mil-up mil-mb-30">
-                                                   <div class="counter">
                                                     <img src="img/icons/desktop.png" alt=""
-                                                    style="width: 95px; height: 85px;">
-                                                    <h3 data-target="35689" class="count">0</h3>
-                                                <h6>Design Hours</h6>
-                                                   </div>
+                                                        style="width: 95px; height: 85px; margin-top: 20px;">
+                                                    <h3 style="font-size: 50px;line-height: 47px; color: #fff; font-weight: 700; margin-top: 20px;"><span id="Design">0</span>+</h3>
+                                                    <h5 style="font-size: 30px; line-height: 47px; color: #fff; font-weight: 400;">Design Hours</h5>
                                             </div>
 
                                             <div class="card3 mil-up mil-mb-30">
-                                                    <div class="counter">
-                                                        <img src="img/icons/box.png" alt=""
-                                                        style="width: 95px; height: 85px;">
-                                                        <h3 data-target="2785" class="count">0</h3>
-                                                    <h6>Projects <br>Completed</h6>
-                                                    </div>
+                                                    <img src="img/icons/box.png" alt=""
+                                                        style="width: 100px; height: 97px; margin-top: 20px;">
+                                                    <h3 style="font-size: 50px; line-height: 47px; color: #fff; font-weight: 700; margin-top: 20px;"><span id="Projects">0</span>+</h3>
+                                                    <h5 style="font-size: 30px; line-height: 30px; color: #fff; font-weight: 400;">Projects Completed</h5>
                                             </div>
 
                                         </div>
@@ -532,21 +517,17 @@
                                                 <span class="mil-accent"></span></p>
 
                                             <div class="card2 mil-up mil-mb-30">
-                                                    <div class="counter">
-                                                        <img src="img/icons/cup.png" alt=""
-                                                        style="width: 95px; height: 85px;">
-                                                        <h3 data-target="963" class="count">0</h3>
-                                                    <h6>Cup of Coffee</h6>
-                                                    </div>
+                                                    <img src="img/icons/cup.png" alt=""
+                                                        style="width: 93px; height: 93px; margin-top: 20px;">
+                                                    <h3 style="font-size: 50px; line-height: 47px; color: #fff; font-weight: 700; margin-top: 20px;"><span id="Coffee">0</span>+</h3>
+                                                    <h5 style="font-size: 29px; line-height: 47px; color: #fff; font-weight: 400;">Cup of Coffee</h5>
                                             </div>
 
                                             <div class="card4 mil-up mil-mb-30">
-                                               <div class="counter">
-                                                <img src="img/icons/human.png" alt=""
-                                                        style="width: 95px; height: 85px;">
-                                                        <h3 data-target="45" class="count">0</h3>
-                                                    <h6>Global Clients</h6>
-                                               </div>
+                                               <img src="img/icons/human.png" alt=""
+                                                        style="width: 78px; height: 91px; margin-top: 20px;">
+                                                    <h3 style="font-size: 50px; line-height: 47px; color: #fff; font-weight: 700;margin-top: 20px;"><span id="Clients">0</span>+</h3>
+                                                    <h5 style="font-size: 29px; line-height: 47px; color: #fff; font-weight: 400;">Global Clients</h5>
                                             </div>
 
                                         </div>
@@ -556,28 +537,6 @@
 
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="heading">
-                              Counting Upto the Limit
-                            </div>
-                            <div class="counter-container">
-                              <div class="counter">
-                                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-time-19.svg" alt="timer" srcset="" class="icon">
-                                <h3 data-target="15000" class="count">0</h3>
-                                <h6>Work Hours</h6>
-                              </div>
-                              <div class="counter">
-                                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-coffee-11.svg" alt="Coffee" srcset="" class="icon">
-                                <h3 data-target="1200" class="count">0</h3>
-                                <h6>Cups of Coffee</h6>
-                              </div>
-                              <div class="counter">
-                                <img src="https://raw.githubusercontent.com/nemo0/animated-counter/29e12c0cb15e90c27faaef0d83fb2618126067db/icons/iconmonstr-weather-112.svg" alt="night" srcset="" class="icon">
-                                <h3 data-target="500" class="count">0</h3>
-                                <h6>Sleepless Nights</h6>
-                              </div>
-                            </div>
-                          </div>
                     </div>
                 </section>
                 <!-- team end -->
@@ -588,7 +547,6 @@
 
                         <div class="row">
                             <div class="col-lg-10">
-
                                 <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">Customer reviews
                                     are a valuable source <br>of information for both businesses and consumers.</span>
 
@@ -1048,7 +1006,7 @@
         <!-- content -->
     </div>
     <!-- wrapper end -->
-<!-- <script>
+<script>
     function numCounter(tagId,maxCount,speed){
     var initialNumber = 0;
     function counter(){
@@ -1063,32 +1021,10 @@
     setTimeout(totalTime, totalPeriod);
 }
 
-numCounter("Design",35690,10);
+numCounter("Design",35690,5);
 numCounter("Projects",2786,100);
-numCounter("Coffee",964,200);
-numCounter("Clients",46,2000);
-</script> -->
-<script>
-    const counters = document.querySelectorAll(".count");
-const speed = 400;
-
-counters.forEach((counter) => {
-const updateCount = () => {
-  const target = parseInt(+counter.getAttribute("data-target"));
-  const count = parseInt(+counter.innerText);
-  const increment = Math.trunc(target / speed);
-  console.log(increment);
-
-  if (count < target) {
-    counter.innerText = count + increment;
-    setTimeout(updateCount, 1);
-  } else {
-    count.innerText = target;
-  }
-};
-updateCount();
-});
-
+numCounter("Coffee",964,400);
+numCounter("Clients",46,3000);
 </script>
     <!-- jQuery js -->
     <script src="js/plugins/jquery.min.js"></script>
