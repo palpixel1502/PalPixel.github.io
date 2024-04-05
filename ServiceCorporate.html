@@ -17,9 +17,67 @@
     <link rel="stylesheet" href="css/plugins/fancybox.min.css">
     <!-- ashley scss -->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- page name -->
     <title>PalPixel</title>
+    <style>
+        #wrapper {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #D9D9D9;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 170px;
+  height: 110px;
+  background: green;
+}
+
+    </style>
 
 </head>
 
@@ -69,7 +127,7 @@
         <div class="mil-menu-frame">
             <!-- frame clone -->
             <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">P.</a>
+                <a href="home.html" class="mil-logo"><img src="img/logo.png" alt="" class="img-fluid" width="50"></a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
@@ -205,7 +263,7 @@
         <!-- frame -->
         <div class="mil-frame">
             <div class="mil-frame-top">
-                <a href="home-1.html" class="mil-logo">A.</a>
+                <a href="home-1.html" class="mil-logo"><img src="img/logo.png" alt="" class="img-fluid" width="50"></a>
                 <div class="mil-menu-btn">
                     <span></span>
                 </div>
@@ -238,8 +296,7 @@
                                 <li><a href="services.html">Services</a></li>
                                 <li><a href="service.html">Service</a></li>
                             </ul>
-                            <h1 class="mil-mb-60">Corporate <span class="mil-thin">Support</span><br> and <span
-                                    class="mil-thin">Development</span></h1>
+                            <h1 class="mil-mb-60">Corporate <span class="mil-thin">Design</span> <br>Support</h1>
                             <a href="#service" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
                                 <span>About service</span>
                             </a>
@@ -255,13 +312,9 @@
                             <div class="col-lg-4 mil-relative mil-mb-90">
 
                                 <h4 class="mil-up mil-mb-30">Your <span class="mil-thin">Approach</span> <br>and <span
-                                        class="mil-thin">Work Specifics</span></h4>
-                                <p class="mil-up mil-mb-30">In the world of corporate design, PalPixel becomes your
-                                    co-author and Imagine, we seamlessly blend with your consultants or in-house design
-                                    experts, embarking on a creative journey.
-                                    <br><br>Together, we sculpt a visual identity that breathes life into your brand.
-                                    Step into our Interactive Design Services, where pixels come alive, and engagement
-                                    unfolds a captivating narrative.
+                                        class="mil-thin">Work Essences</span></h4>
+                                <p class="mil-up mil-mb-30">At PalPixel, we understand the critical importance of support in the corporate design process. Our Corporate Design Support services are tailored to provide comprehensive, full-time assistance to your internal teams. We are committed to enhancing project management through superior quality, ensuring confidentiality, and securing data at every stage. Our project delivery process is streamlined for efficiency, guaranteeing that your projects are not only delivered on time but also meet the highest standards of excellence. 
+                                    <br><br>Furthermore, our real-time project tracking system allows for transparent and up-to-date monitoring, giving you peace of mind and control over your projects' progress. Trust PalPixel to be the partner that empowers your teams and elevates your corporate design projects.
                                 </p>
                                 <div class="mil-up">
                                     <a href="portfolio-3.html" class="mil-link mil-dark mil-arrow-place">
@@ -271,82 +324,86 @@
 
                             </div>
                             <div class="col-lg-6">
+  <img src="img/works/image 10.png" alt="" class="img-fluid" style="width: 594px; height: 625px;">
+
                             </div>
                         </div>
-                        <section class="mil-light-bg">
-                            <div class="mi-invert-fix">
-                                <div class="container mil-p-120-0">
-                                    <div class="row mil-services-grid m-0">
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                    <div class="row mil-services-grid m-0 py-3">
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #d9d9d9;">
-        
-                                            <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up">
-                                                <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
-                                                <p class="mil-mb-30">We seamlessly collaborate with your existing brand and provide exceptions support.</p>
-                                            </a>
-        
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="row mil-services-grid m-0">
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000;">
+
+                                <a href="ServiceCorporate.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Real-time Project Tracking Tools</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Utilize dynamic dashboards and analytics for instant project updates, ensuring efficient workflow and timely interventions.</h5>
+                                </a>
+
                             </div>
-                        </section>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000;">
+
+                                <a href="ServiceVideo.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Automated Productivity Tools</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Implement AI-driven systems to streamline tasks, reduce manual effort, and boost overall efficiency.</h5>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000;">
+
+                                <a href="ServiceBranding.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Dedicated Full-Time Team</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Assign a committed team focused solely on project goals, delivering consistent performance and reliability.</h5>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+
+                                <a href="ServiceWeb.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Highly Skilled Creative Team Members</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Engage with experts possessing a blend of technical prowess and innovative thinking to solve complex problems.</h5>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="row mil-services-grid m-0 py-3">
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000000;">
+
+                                <a href="ServiceWeb.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Secure Data Services</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Employ robust encryption and security protocols to protect sensitive information throughout the project lifecycle.</h5>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000000;">
+
+                                <a href="ServiceWeb.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Team Allocation Based on Capabilities</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Strategically assign team members to roles that match their skills, optimizing project outcomes.</h5>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0" style="border-right: 1px solid #000000;">
+
+                                <a href="ServiceWeb.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">Efficient Project Allocation Process</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Design a system to quickly match projects with the appropriate resources, minimizing downtime and maximizing productivity.</h5>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
+
+                                <a href="ServiceWeb.html" class="mil-service-card-sm mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1; padding: 10px 10px;">
+                                    <img src="img/icons/Group 218.png" alt="" class="img-fluid mb-2" style="width: 20px; height: 20px;">
+                                    <h5 class="mil-mb-10" style="font-size: 18px; line-height: 21px; color: #939393;">AdHoc Team for Critical Deadlines</h5>
+                                    <h5 class="mil-mb-30" style="font-size: 13px; line-height: 18px;color: #d9d9d9;">Have a reserve of specialized professionals ready to deploy on crucial tasks to adhere to tight deadlines without compromising quality.</h5>
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <!-- service end -->
@@ -379,9 +436,9 @@
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -392,7 +449,7 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">The
                                                 revamped presentation is consistent in fonts, colours and other
                                                 elements. It will confirm to the brand’s guidelines and will contain any
                                                 infographics, logos, graphics, animations and data that a client may
@@ -400,86 +457,70 @@
                                                 restructured for better connecting with a brand’s target audience.</p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -491,17 +532,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Interactive And <br>Animated Presentations</h5>
+                                            <h5 class="mil-muted mil-mb-30">Interactive and <br>Animated Presentations</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Interactive and animated presentations are powerful tools for engaging audiences and reinforcing brand identity.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -512,94 +552,73 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">By incorporating dynamic elements and consistent branding, these presentations can transform complex information into memorable, visually appealing content. We ensure that each presentation is not just informative, but also a true reflection of the client's brand values and identity. These presentations also eliminate communication gaps, even when the audience is at another location.</p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -611,17 +630,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Infographics <br>And Demographics</h5>
+                                            <h5 class="mil-muted mil-mb-30">Infographics and <br>Data Visualisations </h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Infographics and data visualizations are powerful tools that transform complex data into clear, engaging, and easily digestible visuals.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -632,94 +650,75 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">Our expertise lies in refining complicated information into concise, consistent, and visually appealing designs.
+                                                By leveraging the latest trends and technologies, we help clients present their data in a way that not only informs but also captivates the audience. 
+                                                </p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -731,17 +730,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Sales Or <br>Investor Pitch Deck</h5>
+                                            <h5 class="mil-muted mil-mb-30">Sales and <br>Investor Pitch Decks</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Creating compelling sales and investor pitch decks is crucial for capturing attention and conveying key messages efficiently.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -752,94 +750,73 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">Our expertise lies in distilling complex ideas into clear, impactful presentations. We focus on brevity and strong visuals to ensure that every slide is engaging and informative. By doing so, we help our clients make a memorable impression on busy investors, maximizing the impact of their pitch in minimal time.</p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -851,17 +828,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Cinematic And <br>Motion Graphic Videos</h5>
+                                            <h5 class="mil-muted mil-mb-30">Cinematic and <br>Motion Graphic Videos</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Cinematic and motion graphic videos are powerful tools for storytelling and branding.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -872,94 +848,75 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">They combine visual artistry with dynamic movement to bring a company's identity to life, engaging both internal and external audiences. 
+                                                Whether it's to highlight a new product line or to communicate a corporate narrative, these videos can transform abstract concepts into tangible experiences, making an impactful connection with viewers. 
+                                                </p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -971,17 +928,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Interactive PDFs <br>And Ebooks</h5>
+                                            <h5 class="mil-muted mil-mb-30">Interactive <br>PDFs and eBooks</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Interactive PDFs and eBooks represent the cutting edge in digital publishing, aligning perfectly with the modern trend towards dynamic, multi-device accessible content.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -992,94 +948,74 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">These advanced formats offer a level of engagement and interactivity with features like clickable links, embedded media, and responsive design that adapts to any screen size or dimensions. By leveraging these technologies, Client can create immersive and versatile reading experiences that meet the expectations of today's digital-savvy audience.
+                                                </p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -1094,14 +1030,13 @@
                                             <h5 class="mil-muted mil-mb-30">Publication <br>Support</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">In the realm of publication support, our expertise lies in bridging the gap between digital creation and traditional printing.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1112,94 +1047,75 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">We ensure that the final printed material mirrors its digital counterpart, maintaining design integrity through a deep understanding of printing parameters. 
+                                                Our commitment to quality means that every detail, from color fidelity to layout precision, is meticulously translated from screen to print, providing clients with a seamless visual experience.                                                
+                                                </p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
@@ -1211,17 +1127,16 @@
                                                     alt=""></div>
                                         </div>
                                         <div class="col-lg-4">
-                                            <h5 class="mil-muted mil-mb-30">Newsletter/Outlook <br>Emailers</h5>
+                                            <h5 class="mil-muted mil-mb-30">Newsletters and <br>Outlook Emails</h5>
                                         </div>
                                         <div class="col-lg-4">
-                                            <p class="mil-light-soft mil-mb-30">Palpixel’s ability to enhance a basic
-                                                presentation received from a client provides unmatched value.</p>
+                                            <p class="mil-light-soft mil-mb-30">Creating effective newsletters and Outlook emails is essential for maintaining robust eCommunication strategies.</p>
                                         </div>
                                         <div class="col-lg-2">
                                             <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
-                                                style="float: right; background-color: #6C41FF;">
+                                                style="float: right;">
                                                 <div class="mil-plus">+</div>
-                                                <div class="mil-minus"><img src="img/icons/Group 224.png" alt="" class="img-fluid" width="14px"></div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1232,94 +1147,173 @@
                                         </div>
                                         <div class="col-lg-10">
                                             <p class="mil-muted mil-mb-30"
-                                                style="font-size: 11px; line-height: 15px; font-weight: 500;">The
-                                                revamped presentation is consistent in fonts, colours and other
-                                                elements. It will confirm to the brand’s guidelines and will contain any
-                                                infographics, logos, graphics, animations and data that a client may
-                                                want to include. If required by the client, the presentation can be
-                                                restructured for better connecting with a brand’s target audience.</p>
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500;color: #939393;">Best practices suggest crafting engaging subject lines, designing for mobile optimization, and balancing content types to keep the audience engaged. Personalization and clear calls-to-action are also key to increasing open rates and driving engagement. 
+                                                For those using Outlook, leveraging its template features can streamline the process, ensuring consistency and efficiency in your communication efforts.</p>
                                         </div>
                                     </div>
-<div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner w-100">
-        <div class="carousel-item active">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="col-md-3">
-                <div class="card card-body">
-                    <img class="img-fluid" src="img/carasoul/1.avif" alt="First slide">
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next" style="
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    top: 35%;
-">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="mil-accordion-group mil-up mil-price-card mil-accent-cursor mil-up">
+                                <div class="mil-accordion-menu" style="display: flow;">
+
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2">
+                                            <div class="mil-price-number mil-mb-30"><img src="img/icons/revamp.svg"
+                                                    alt=""></div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <h5 class="mil-muted mil-mb-30">eLearning</h5>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <p class="mil-light-soft mil-mb-30">eLearning is a powerful tool for developing internal training modules that are flexible, scalable, and cost-effective.</p>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="mil-symbol mil-h3 mil-mb-30 mil-button mil-icon-button-sm"
+                                                style="float: right;">
+                                                <div class="mil-plus">+</div>
+                                                <div class="mil-minus" style="font-size: 12px;margin-top: 5px;">x</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mil-accordion-content">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-2">
+                                        </div>
+                                        <div class="col-lg-10">
+                                            <p class="mil-muted mil-mb-30"
+                                                style="font-size: 15px; line-height: 18px; font-weight: 500; color: #939393;">It allows organizations to deliver personalized training tailored to the specific needs of their employees, fostering a culture of continuous learning and development. 
+                                                With eLearning, companies can efficiently train their workforce, adapt to changing skill requirements, and measure the effectiveness of their training programs, ultimately driving business growth and success.</p>
+                                        </div>
+                                    </div>
+                                    <div id="wrapper">
+                                        <div id="carousel">
+                                          <div id="content">
+                                            <img
+                                              class="item"
+                                              src="img/carasoul/1.avif"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                            <img
+                                            src="img/carasoul/1.avif"
+                                              class="item"
+                                            />
+                                          </div>
+                                        </div>
+                                        <button id="prev">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                                          </svg>
+                                        </button>
+                                        <button id="next">
+                                          <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="24"
+                                            height="24"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path fill="none" d="M0 0h24v24H0V0z" />
+                                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                                          </svg>
+                                        </button>
+                                      </div>
                                 </div>
                             </div>
                             <div class="mil-center">
@@ -1351,18 +1345,16 @@
                         <div class="row">
                             <div class="col-lg-4">
 
-                                <a href="ServiceVideo.html"
-                                    class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
-                                    <h4 class="mil-up mil-mb-30">Video <br>Solutions</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">We seamlessly merge creativity and technology
-                                        to craft engaging promotional videos and compelling narratives.</p>
+                                <a href="ServiceVideo.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                    <h4 class="mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Video <br>Solutions</h4>
+                                    <p class="mil-descr mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">We seamlessly merge creativity and technology to craft engaging promotional videos and compelling narratives.</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">Cinematic Videos</li>
-                                        <li class="mil-up">Motion Graphic Videos</li>
-                                        <li class="mil-up">Icon Animations</li>
-                                        <li class="mil-up">PowerPoint Animated Video</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Cinematic Videos</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Motion Graphic Videos</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">Icon Animations</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">PowerPoint Animated Video</li>
                                     </ul>
-                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">
                                         <span>Read more</span>
                                     </div>
                                 </a>
@@ -1370,18 +1362,16 @@
                             </div>
                             <div class="col-lg-4">
 
-                                <a href="ServiceBranding.html"
-                                    class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
-                                    <h4 class="mil-up mil-mb-30">Branding & <br>Packaging</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">PalPixel excels in pragmatic Branding and
-                                        Packaging Services. We create memorable design solutions.</p>
+                                <a href="ServiceBranding.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                    <h4 class="mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Branding &amp; <br>Packaging</h4>
+                                    <p class="mil-descr mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">PalPixel excels in pragmatic Branding and Packaging Services. We create memorable design solutions.</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">Logo Creation </li>
-                                        <li class="mil-up">Brand Guidelines</li>
-                                        <li class="mil-up">Packaging Box/Labels</li>
-                                        <li class="mil-up">Brand Creation</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Logo Creation </li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Brand Guidelines</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">Packaging Box/Labels</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">Brand Creation</li>
                                     </ul>
-                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">
                                         <span>Read more</span>
                                     </div>
                                 </a>
@@ -1390,16 +1380,15 @@
                             <div class="col-lg-4">
 
                                 <a href="ServiceWeb.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
-                                    <h4 class="mil-up mil-mb-30">UI/UX Design & <br>Development</h4>
-                                    <p class="mil-descr mil-up mil-mb-30">We craft seamless UI/UX experiences that feel
-                                        like a breeze, making your digital journey enjoyable.</p>
+                                    <h4 class="mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">UI/UX Design &amp; <br>Development</h4>
+                                    <p class="mil-descr mil-up mil-mb-30" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">We craft seamless UI/UX experiences that feel like a breeze, making your digital journey enjoyable.</p>
                                     <ul class="mil-service-list mil-dark mil-mb-30">
-                                        <li class="mil-up">Web & App UI/UX</li>
-                                        <li class="mil-up">CMS Handling</li>
-                                        <li class="mil-up">Wordpress Website</li>
-                                        <li class="mil-up">HTML Coding</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">Web &amp; App UI/UX</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">CMS Handling</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">Wordpress Website</li>
+                                        <li class="mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">HTML Coding</li>
                                     </ul>
-                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up" style="translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.98, 0.98); opacity: 0;">
                                         <span>Read more</span>
                                     </div>
                                 </a>
@@ -1417,14 +1406,13 @@
                             <div class="row justify-content-between">
                                 <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                                    <div class="mil-muted mil-logo mil-up mil-mb-30">PalPixel</div>
+                                    <div class="mil-muted mil-logo mil-up mil-mb-30"><img src="img/logo_main.png" alt="" height="65px"></div>
 
                                     <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
                                     <form class="mil-subscribe-form mil-up">
                                         <input type="text" placeholder="Enter our email">
-                                        <button type="submit"
-                                            class="mil-button mil-icon-button-sm mil-arrow-place"></button>
+                                        <button type="submit" class="mil-button mil-icon-button-sm mil-arrow-place"></button>
                                     </form>
 
                                 </div>
@@ -1434,13 +1422,13 @@
 
                                             <nav class="mil-footer-menu mil-mb-60">
                                                 <ul>
-                                                    <li class="mil-up mil-active">
-                                                        <a href="home-1.html">Home</a>
+                                                    <li class="mil-up">
+                                                        <a href="home.html">Home</a>
                                                     </li>
                                                     <li class="mil-up">
                                                         <a href="portfolio-1.html">Portfolio</a>
                                                     </li>
-                                                    <li class="mil-up">
+                                                    <li class="mil-up mil-active">
                                                         <a href="services.html">Services</a>
                                                     </li>
                                                     <li class="mil-up">
@@ -1476,17 +1464,14 @@
 
                                             <h6 class="mil-muted mil-up mil-mb-30">India</h6>
 
-                                            <p class="mil-light-soft mil-up">Bhutani Cyber Park, C-28 & 29, C Block,
-                                                Phase 2, Industrial Area, Sector 62, Noida, Uttar Pradesh - 201301.
-                                                <span class="mil-no-wrap">+91 851 000 8825</span></p>
+                                            <p class="mil-light-soft mil-up">Bhutani Cyber Park, C-28&29, C Block, Phase 2 Industrial Area, Sector 62, Noida, Uttar Pradesh - 201301 <span class="mil-no-wrap">+91-8510008825</span></p>
 
                                         </div>
                                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                                            <h6 class="mil-muted mil-up mil-mb-30">Germany</h6>
+                                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
 
-                                            <p class="mil-light-soft mil-up">Brampton, ON L6R, 3PS, Canada <span
-                                                    class="mil-no-wrap">+1 674 705 1811</span></p>
+                                            <p class="mil-light-soft mil-up">Leehove 40, 2678 MC De Lier, Netherlands <span class="mil-no-wrap">+31 174 705 811</span></p>
 
                                         </div>
                                     </div>
@@ -1497,18 +1482,14 @@
                                     <div class="mil-vert-between">
                                         <div class="mil-mb-30">
                                             <ul class="mil-social-icons mil-up">
-                                                <li><a href="#." target="_blank" class="social-icon"> <i
-                                                            class="far fa-circle"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i
-                                                            class="far fa-circle"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i
-                                                            class="far fa-circle"></i></a></li>
-                                                <li><a href="#." target="_blank" class="social-icon"> <i
-                                                            class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon" style="color: #6C41FF;"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon" style="color: #9422A1;"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon" style="color: #E71E80;"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon" style="color: #B91F4B;"> <i class="far fa-circle"></i></a></li>
+                                                <li><a href="#." target="_blank" class="social-icon" style="color: #EB5B23;"> <i class="far fa-circle"></i></a></li>
                                             </ul>
                                         </div>
-                                        <p class="mil-light-soft mil-up">© Copyright 2023 - PalPixel. All Rights
-                                            Reserved.</p>
+                                        <p class="mil-light-soft mil-up">© Copyright 2024 - PalPixel. All Rights Reserved.</p>
                                     </div>
 
                                 </div>
@@ -1642,17 +1623,35 @@
     </div>
     <!-- wrapper end -->
 <script>
-$('.carousel .carousel-item').each(function () {
-var minPerSlide = 4;
-var next = $(this).next();
-if (!next.length) {
-next = $(this).siblings(':first');
-}
-next.children(':first-child').clone().appendTo($(this));
+    const gap = 16;
 
-for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
+const carousel = document.getElementById("carousel"),
+  content = document.getElementById("content"),
+  next = document.getElementById("next"),
+  prev = document.getElementById("prev");
+
+next.addEventListener("click", e => {
+  carousel.scrollBy(width + gap, 0);
+  if (carousel.scrollWidth !== 0) {
+    prev.style.display = "flex";
+  }
+  if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "none";
+  }
+});
+prev.addEventListener("click", e => {
+  carousel.scrollBy(-(width + gap), 0);
+  if (carousel.scrollLeft - width - gap <= 0) {
+    prev.style.display = "none";
+  }
+  if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "flex";
+  }
+});
+
+let width = carousel.offsetWidth;
+window.addEventListener("resize", e => (width = carousel.offsetWidth));
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- jQuery js -->
     <script src="js/plugins/jquery.min.js"></script>
     <!-- swup js -->
@@ -1671,6 +1670,7 @@ for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { ne
     <script src="js/plugins/ScrollTo.min.js"></script>
     <!-- ashley js -->
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 
